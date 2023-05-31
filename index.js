@@ -63,6 +63,9 @@ app.get('/patchnotes/:id', (req, res) => {
                 time: Date.now()
             };
             res.send(patchNote);
+        })
+        .catch((err) => {
+            res.send({error: 'Not found'});
         });
     }
 });
