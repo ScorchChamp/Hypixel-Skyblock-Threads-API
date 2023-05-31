@@ -20,7 +20,7 @@
 ![GitHub Repo Size](https://img.shields.io/github/repo-size/ScorchChamp/Hypixel-Skyblock-Threads-API?style=for-the-badge)
 ![GitHub Repo Stars](https://img.shields.io/github/stars/ScorchChamp/Hypixel-Skyblock-Threads-API?style=for-the-badge)
 
-[](https://counter.scorchchamp.com/counter?username=hypixelpatchnotes)
+![](https://counter.scorchchamp.com/counter?username=hypixelpatchnotes)
 
 
 Unofficial Hypixel Skyblock threads API (due to the lack of being one with all patchnotes)
