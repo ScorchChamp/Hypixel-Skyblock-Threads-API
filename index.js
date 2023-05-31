@@ -57,7 +57,8 @@ app.get('/patchnotes/:id', (req, res) => {
             patchNote.title = $('.p-title-value').text();
             patchNote.date = $('.u-dt').attr('data-datestring');
             patchNote.author = $('.username').first().text();
-            patchNote.content = $('.bbWrapper').html().replace(/<[^>]*>?/gm, '').replace(/\n/g, ' ').replace(/\t/g, '').replace(/{[^}]*}?/gm, '');
+            patchNote.content = $('.bbWrapper').html().replace(/<[^>]*>?/gm, '').replace(/\n+/g, '. ').replace(/\t/g, '- ').replace(/{[^}]*}?/gm, '');
+
             pageCaches[id] = {
                 data: patchNote,
                 time: Date.now()
