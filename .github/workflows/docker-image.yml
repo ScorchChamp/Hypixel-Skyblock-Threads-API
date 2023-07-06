@@ -25,4 +25,4 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: registry.scorchchamp.com/${{ github.event.repository.name }}:latest
+          tags: registry.scorchchamp.com/${{ github.event.repository.name | lower }}:latest
